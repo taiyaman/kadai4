@@ -71,6 +71,6 @@ fi
 
 if [ -f $error_log ];then
          cat $error_log 1>&2
-         rm -f /tmp/$$-*
+#        rm -f /tmp/$$-*
          exit 1
 fi
