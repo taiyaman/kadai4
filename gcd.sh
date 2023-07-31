@@ -11,8 +11,7 @@ is_number() {
 }
 
 # 2つの数値が引数として与えられているかチェック
-#if [ "$#" -ne 2 ]; then
-if [ "$#" -eq 2 ]; then
+if [ "$#" -ne 2 ]; then
     echo "Error: Exactly two natural numbers are required"
     exit 1
 fi
