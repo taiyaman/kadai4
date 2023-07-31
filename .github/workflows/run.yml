@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: /home/yama0131/kadai4/gcd_test.sh 
+      - run: /home/yama0131/kadai4/gcd_test.sh
